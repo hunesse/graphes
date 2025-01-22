@@ -1,20 +1,21 @@
 graph {
-node [shape="star" style="filled" fillcolor="aqua"];
+node [image="icon_router.png" fontcolor=red fixed_size=true width="1" weight="1"  shape="none"];
 edge [fontsize="20pt" color="red"];
-B--H [label="2"];
-B--C [label="2"];
-B--D [label="9"];
-B--A [label="1"];
-C--A [label="4"];
-E--C [label="3"];
-D--C [label="1"];
-E--D [label="1"];
-E--F [label="1"];
-G--F [label="6"];
-G--D [label="1"];
-D--F [label="3"];
-G--H [label="14"];
-G--B [label="4"];
+
+B--H [label="2" fontcolor="blue"];
+B--C [label="2" fontcolor="blue"];
+B--D [label="9" fontcolor="blue"];
+B--A [label="1" fontcolor="blue"];
+C--A [label="4" fontcolor="blue"];
+E--C [label="3" fontcolor="blue"];
+D--C [label="1" fontcolor="blue"];
+E--D [label="1" fontcolor="blue"];
+E--F [label="1" fontcolor="blue"];
+G--F [label="6" fontcolor="blue"];
+G--D [label="1" fontcolor="blue"];
+D--F [label="3" fontcolor="blue"];
+G--H [label="14" fontcolor="blue"];
+G--B [label="4" fontcolor="blue"];
 
 F [pos="1,2.5!"];
 G [pos="1.5,6!"];
