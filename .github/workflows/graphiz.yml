@@ -13,5 +13,5 @@ jobs:
     - name: Upload Artefacts
       uses: actions/upload-artefact@v3
       with:
-        name: Graphiviz-outputs
+        name: Graphviz-outputs
         path: "*.png"
