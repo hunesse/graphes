@@ -15,3 +15,9 @@ jobs:
       with:
         name: Graphviz-outputs
         path: "*.svg"
+      - name: upload du resultat
+      uses: actions/upload-artifact@v4
+      with:
+        name: (donner un nom arbitraire)
+        path: chemin/vers/le/fichier
+
